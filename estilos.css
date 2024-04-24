@@ -1,0 +1,124 @@
+/* Fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Urbanist:wght@100..900&display=swap');
+
+/* Estilos generales del cuerpo de la página */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    font-family: "Urbanist", sans-serif; /* Fuente predeterminada */
+    font-size: 24px; /* Tamaño de fuente general */
+    font-weight: 400;
+    margin: 0 20px; /* Margen a los lados */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #888; /* Color de enlaces predeterminado */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:visited {
+    color: #aaa; /* Color de enlaces visitados */
+}
+
+a:hover {
+    color: #ccc; /* Color de enlaces al pasar el mouse */
+}
+
+/* Estilos para los enlaces en el header */
+header a {
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Cambia el color cuando el enlace es visitado */
+header a:visited {
+    color: #ccc; /* Gris claro para enlaces visitados en el header */
+}
+
+/* Cambia el color al pasar el mouse sobre el enlace */
+header a:hover {
+    color: #eee; /* Gris más claro al pasar el mouse en el header */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #000000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Espacio interno */
+    text-align: right; /* Alineación al lado derecho */
+}
+
+/* Estilos para los títulos */
+h1, h2, h3 {
+    color: #000000; /* Texto negro */
+    font-weight: 400; /* Grosor de la fuente */
+    font-family: "Archivo Black", sans-serif; /* Fuente personalizada */
+    margin: 20px auto; /* Margen superior e inferior, centrado horizontalmente */
+    text-align: center; /* Alineación centrada */
+}
+
+h1 {
+    font-size: 64px; /* Tamaño del título principal */
+}
+
+h2 {
+    font-size: 48px; /* Tamaño del título secundario */
+}
+
+h3 {
+    color: #19667C; /* Color del título terciario */
+    font-size: 36px; /* Tamaño del título terciario */
+}
+
+/* Estilos para la imagen */
+img {
+    width: 100%; /* Ancho completo */
+    margin-top: 50px; /* Margen superior */
+    margin-bottom: 50px; /* Margen inferior */
+    display: block; /* Mostrar como bloque */
+    border-radius: 60px; /* Borde redondeado */
+}
+
+/* Estilos para el subtítulo */
+h4 {
+    color: #000000; /* Texto negro */
+    font-family: "Archivo Black", sans-serif; /* Fuente personalizada */
+    font-size: 32px; /* Tamaño del subtítulo */
+    font-weight: 400; /* Grosor de la fuente */
+}
+
+/* Estilos para el subtítulo secundario */
+h5 {
+    color: #fff; /* Texto blanco */
+    font-family: "Archivo Black", sans-serif; /* Fuente personalizada */
+    font-size: 48px; /* Tamaño del subtítulo secundario */
+    font-weight: 400; /* Grosor de la fuente */
+}
+
+/* Estilos para el pie de página */
+footer {
+    margin-top: 100px; /* Margen superior */
+    background-color: #000000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para la cita en el pie de página */
+footer p {
+    margin-top: 50px; /* Margen superior */
+}
+
+/* Estilos adicionales */
+.italic {
+    font-style: italic; /* Texto en cursiva */
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 100; /* Grosor de fuente light*/
+}
+
+.uppercase {
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+}
